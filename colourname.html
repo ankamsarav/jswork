@@ -85,7 +85,7 @@
 							return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
 						}
 						//Final Output
-						$("#result").html("<div id='coloryourname'><p class='msg'>Congratulations! You just created colour out of your name.</p><p style=color:"+rgbToHex(sum[0],sum[1],sum[2])+">" + firstName + " " + middleName + " " + lastName + "</p></div><div id='values'><p class='msg'>Color values for your name.</p><p class='box' style=background:"+rgbToHex(sum[0],sum[1],sum[2])+"></p><p class='rgb'><span>R:"+sum[0]+"</span><span>G:"+sum[1]+"</span><span>B:"+sum[0]+"</p><p class='hex'>Hex: "+rgbToHex(sum[0],sum[1],sum[2])+"</p></div>");
+						$("#result").html("<div id='coloryourname'><p class='msg'>Congratulations! You just created colour out of your name.</p><p style=color:"+rgbToHex(sum[0],sum[1],sum[2])+">" + firstName + " " + middleName + " " + lastName + "</p></div><div id='values'><p class='msg'>Color values for your name.</p><p class='box' style=background:"+rgbToHex(sum[0],sum[1],sum[2])+"></p><p class='rgb'><span>R:"+sum[0]+"</span><span>G:"+sum[1]+"</span><span>B:"+sum[2]+"</p><p class='hex'>Hex: "+rgbToHex(sum[0],sum[1],sum[2])+"</p></div>");
 
 						//Reset everything
 						$('#color')[0].reset();
